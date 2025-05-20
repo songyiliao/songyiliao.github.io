@@ -1,1 +1,18 @@
+<script src="https://cdn.jsdelivr.net/gh/pcooksey/bibtex-js/bibtex.min.js"></script>
 
+<h2>Publications</h2>
+<ul id="bibtex_display"></ul>
+
+<!-- 样式模板定义 -->
+<div class="bibtex_template">
+  <li>
+    <span class="author"></span>. 
+    <b><span class="title"></span></b>. 
+    <span class="journal"></span>, 
+    <span class="year"></span>.
+    <a class="bibtexVar" href="+URL+" extra="URL">[PDF]</a>
+  </li>
+</div>
+
+<!-- 加载 .bib 文件 -->
+<bibtex src="publications.bib"></bibtex>
