@@ -98,7 +98,7 @@ img { max-width: 100%; height: auto; }
     line-height: 1.03;
 }
 
-.hero h1 { max-width: 760px; font-size: clamp(3.5rem, 8vw, 6.8rem); }
+.hero h1 { max-width: 760px; font-size: clamp(3.15rem, 6.2vw, 5.3rem); }
 .hero h1 span { color: var(--teal); font-style: italic; font-weight: 500; }
 .role { margin: 18px 0 0; color: var(--navy); font-size: clamp(1.05rem, 2vw, 1.28rem); font-weight: 600; }
 .intro { max-width: 720px; margin: 24px 0 0; color: var(--muted); font-family: var(--serif); font-size: clamp(1.25rem, 2.4vw, 1.56rem); line-height: 1.48; }
@@ -244,7 +244,7 @@ table#tlayout { width: min(calc(100% - 48px), var(--max-width)); margin: 60px au
     .nav-shell { min-height: auto; padding-block: 17px; align-items: flex-start; flex-direction: column; gap: 12px; }
     .nav-links { width: 100%; gap: 0; justify-content: space-between; }
     .nav-links a { font-size: 0.78rem; }
-    .hero h1 { font-size: clamp(3.15rem, 17vw, 5rem); }
+    .hero h1 { font-size: clamp(2.85rem, 13vw, 4rem); }
     .hero-actions { align-items: stretch; flex-direction: column; }
     .button { width: 100%; }
     .text-link { margin: 4px 0 0; text-align: center; }
